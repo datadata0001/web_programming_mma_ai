@@ -1,0 +1,345 @@
+<Doctype html>
+<html>
+<head>
+<title> AI </title>
+<link href="styles.css"  rel="stylesheet" />
+</head>
+
+<body>
+
+
+
+
+<script src = "script.js">
+
+
+</script>
+
+
+
+<header>
+<h2>Mixed Martial Arts Artificial Intelligence</h2>
+
+
+
+<section>
+
+
+<nav>
+<table>
+<ul>
+
+<tr> <td><li> <a href="#"> Predict Matches </a> </li></td>
+<td> <li> <a href="#"> Fighter stats </a> </li></td>
+<td> <li> <a href="#"> Matches </li></td>
+<td> <li> <a href="#"> Compare Fighters </li></td>
+<td> <li> <a href="#"> Add a fighter </li></td><tr/>
+
+</ul>
+</table>
+
+</nav>
+
+</header>
+
+
+
+<div class="background-image"> </div>
+
+
+
+
+    <title>Compare Fighter</title>
+    <style>
+        .background-container {
+            background-image: url("https://images.wallpapersden.com/image/download/street-fighter-gaming-ai-art_bmZtZ22UmZqaraWkpJRoam1prWdlaW0.jpg"); /* Arka plan resminin yolunu belirtin */
+            background-size: cover; /* Arka plan resmini kaplamak için */
+            background-position: center; /* Arka plan resmini ortalamak için */
+            padding: 20px; /* Metnin çevresine biraz boşluk eklemek için */
+            color: white; /* Metin rengini beyaz yapmak için */
+            height:100%;		
+        }
+    </style>
+
+
+<div class="background-container">
+    <h1>Compare Fighter</h1>
+    <label for="fighter1">First Fighter:</label>
+    <select id="fighter1" name="fighter1">
+        <option value="">Select a Fighter</option>
+        <option value="Tim Elliot">Tim Elliot</option>
+        <option value="Muhammad Mokaev">Muhammad Mokaev</option>
+        <option value="Muin Gafurov">Muin Gafurov</option>
+        <option value="Said Nurmagomedov">Said Nurmagomedov</option>
+        <option value="Warlley Alves">Warlley Alves</option>
+        <option value="Ikram Aliskerov">Ikram Aliskerov</option>
+        <option value="Johnny Walker">Johnny Walker</option>
+        <option value="Magomed Ankalaev">Magomed Ankalaev</option>
+        <option value="Khamzat Chimaev">Khamzat Chimaev</option>
+        <option value="Paulo Costa">Paulo Costa</option>
+        <option value="Charles Oliveira">Charles Oliveira</option>
+        <option value="Islam Makhachev">Islam Makhachev</option>
+        <option value="Valentina Shevchenko">Valentina Shevchenko</option>
+        <option value="Amanda Nunes">Amanda Nunes</option>
+        <option value="Jon Jones">Jon Jones</option>
+        <option value="Francis Ngannou">Francis Ngannou</option>
+        <option value="Kamaru Usman">Kamaru Usman</option>
+        <option value="Alexander Volkanovski">Alexander Volkanovski</option>
+        <option value="Khabib Nurmagomedov">Khabib Nurmagomedov</option>
+	<option value="Jiri Prochazka">Jiri Prochazka</option>
+        <option value="Alex Pereira">Alex Pereira</option>
+        <option value="Shamil Abdurakhimov">Shamil Abdurakhimov</option>
+        <option value="Jailton Almeida">Jailton Almeida</option>
+        <option value="Derrick Lewis">Derrick Lewis</option>
+        <option value="Marcos Rogerio De Lima">Marcos Rogerio De Lima</option>
+        <option value="Waldo Cortes Acosta">Waldo Cortes Acosta</option>
+        <option value="Sean O'Malley">Sean O'Malley</option>
+        <option value="Aljamanin Sterling">Aljamanin Sterling</option>
+        <option value="Henry Cejudo">Henry Cejudo</option>
+        <option value="Tj Dillashaw">Tj Dillashaw</option>
+        <option value="Demetrious Johnson">Demetrious Johnson</option>
+        <option value="Wilson Reis">Wilson Reis</option>
+        <option value="Alexandre Pantoja">Alexandre Pantoja</option>
+        <option value="Brandon Moreno">Brandon Moreno</option>
+        <option value="Leon Edwards">Leon Edwards</option>
+        <option value="Nate Diaz">Nate Diaz</option>
+        <option value="Tony Ferguson">Tony Ferguson</option>
+        <option value="Conor McGregor">Conor McGregor</option>
+        <option value="Dustin Poirier">Dustin Poirier</option>
+        <option value="Justin Gaetjhe">Justin Gaetjhe</option>
+        <option value="Rafael Fiziev">Rafael Fiziev</option>
+        <option value="Michael Chandler">Michael Chandler</option>
+        <option value="Dan Hooker">Dan Hooker</option>
+        <option value="Jalin Turner">Jalin Turner</option>
+<option value="Claudio Puelles">Claudio Puelles</option>
+<option value="Clay Guida">Clay Guida</option>
+<option value="Joaquim Silva">Joaquim Silva</option>
+<option value="Arman Tsarukyan">Arman Tsarukyan</option>
+<option value="Beneil Dariush">Beneil Dariush</option>
+<option value="Mateusz Gamrot">Mateusz Gamrot</option>
+<option value="Diego Ferreira">Diego Ferreira</option>
+<option value="Michael Johnson">Michael Johnson</option>
+<option value="Josh Emmet">Josh Emmet</option>
+<option value="Ilia Topuria">Ilia Topuria</option>
+<option value="Bryce Mitchell">Bryce Mitchell</option>
+<option value="Dan Ige">Dan Ige</option>
+<option value="Yair Rodriguez">Yair Rodriguez</option>
+<option value="Brian Ortega">Brian Ortega</option>
+<option value="Chan Sung Jung">Chan Sung Jung</option>
+<option value="Frankie Edgar">Frankie Edgar</option>
+<option value="Marlon Vera">Marlon Vera</option>
+<option value="Cory Sandhagen">Cory Sandhagen</option>
+<option value="Petr Yan">Petr Yan</option>
+<option value="Jan Blachowicz">Jan Blachowicz</option>
+<option value="Cirly Gane">Cirly Gane</option>
+<option value="Serghei Spivac">Serghei Spivac</option>
+<option value="Alexander Gustafsson">Alexander Gustafsson</option>
+<option value="Daniel Cormier">Daniel Cormier</option>
+<option value="Anthony Johnson">Anthony Johnson</option>
+<option value="Glover Teixeira">Glover Teixeira</option>
+<option value="Calvin Kattar">Calvin Kattar</option>
+<option value="Giga Chikadze">Giga Chikadze</option>
+<option value="Alex Caceres">Alex Caceres</option>
+<option value="Daniel Pineda">Daniel Pineda</option>
+<option value="Edson Barboza">Edson Barboza</option>
+<option value="Tucker Lutz">Tucker Lutz</option>
+<option value="Pat Sabatini">Pat Sabatini</option>
+<option value="Diego Lopes">Diego Lopes</option>
+<option value="Thiago Santos">Thiago Santos</option>
+<option value="Jamahal Hill">Jamahal Hill</option>
+<option value="Paul Craig">Paul Craig</option>
+<option value="Brendan Allen">Brendan Allen</option>
+<option value="Bruno Silva">Bruno Silva</option>
+<option value="Shara Magomedov">Shara Magomedov</option>
+<option value="Ovince Saint Preux">Ovince Saint Preux</option>
+<option value="Philipe Lins">Philipe Lins</option>
+<option value="Max Grishin">Max Grishin</option>
+<option value="William Knight">William Knight</option>
+<option value="Marchin Prachino">Marchin Prachino</option>
+<option value="Vitor Petrino">Vitor Petrino</option>
+<option value="Anton Turkalj">Anton Turkalj</option>
+<option value="Tyson Pedro">Tyson Pedro</option>
+<option value="Modestas Bukauskas">Modestas Bukauskas</option>
+<option value="Zac Pauga">Zac Pauga</option>
+<option value="Mohammed Usman">Mohammed Usman</option>
+<option value="Zhang Weili">Zhang Weili</option>
+<option value="Amanda Lemos">Amanda Lemos</option>
+<option value="Marina Rodriguez">Marina Rodriguez</option>
+<option value="Michelle Waterson-Gomez">Michelle Waterson-Gomez</option>
+<option value="Luana Pinheiro">Luana Pinheiro</option>
+<option value="Sam Hughes">Sam Hughes</option>
+<option value="Piera Rodriguez">Piera Rodriguez</option>
+<option value="Kay Hansen">Kay Hansen</option>
+<option value="Alexa Grasso">Alexa Grasso</option>
+<option value="Viviane Araujo">Viviane Araujo</option>
+<option value="Jennifer Maia">Jennifer Maia</option>
+<option value="Casey O'Neill">Casey O'Neill</option>
+<option value="Roxanne Modafferi">Roxanne Modafferi</option>
+<option value="Taila Santos">Taila Santos</option>
+<option value="Erin Blanchfield">Erin Blanchfield</option>
+<option value="Jessica Andrade">Jessica Andrade</option>
+<option value="Mackenzie Dern">Mackenzie Dern</option>
+<option value="Angela Hill">Angela Hill</option>
+<option value="Denise Gomes">Denise Gomes</option>
+<option value="Anthony Smith">Anthony Smith</option>
+<option value="Ryan Spann">Ryan Spann</option>
+<option value="Nikita Krylov">Nikita Krylov</option>
+<option value="Shavkat Rakhmonov">Shavkat Rakhmonov</option>
+<option value="Li Jingliang">Li Jingliang</option>
+<option value="Gilbert Burns">Gilbert Burns</option>
+<option value="Kevin Holland">Kevin Holland</option>
+
+        <!-- Buraya dövüşçü listesini ekleyebilirsiniz -->
+    </select>
+    <br><br>
+    <label for="fighter2">Second Fighter:</label>
+    <select id="fighter2" name="fighter2">
+        <option value="">Select a Fighter</option>
+        <option value="Tim Elliot">Tim Elliot</option>
+        <option value="Muhammad Mokaev">Muhammad Mokaev</option>
+        <option value="Muin Gafurov">Muin Gafurov</option>
+        <option value="Said Nurmagomedov">Said Nurmagomedov</option>
+        <option value="Warlley Alves">Warlley Alves</option>
+        <option value="Ikram Aliskerov">Ikram Aliskerov</option>
+        <option value="Johnny Walker">Johnny Walker</option>
+        <option value="Magomed Ankalaev">Magomed Ankalaev</option>
+        <option value="Khamzat Chimaev">Khamzat Chimaev</option>
+        <option value="Paulo Costa">Paulo Costa</option>
+        <option value="Charles Oliveira">Charles Oliveira</option>
+        <option value="Islam Makhachev">Islam Makhachev</option>
+        <option value="Valentina Shevchenko">Valentina Shevchenko</option>
+        <option value="Amanda Nunes">Amanda Nunes</option>
+        <option value="Jon Jones">Jon Jones</option>
+        <option value="Francis Ngannou">Francis Ngannou</option>
+        <option value="Kamaru Usman">Kamaru Usman</option>
+        <option value="Alexander Volkanovski">Alexander Volkanovski</option>
+        <option value="Khabib Nurmagomedov">Khabib Nurmagomedov</option>
+	<option value="Jiri Prochazka">Jiri Prochazka</option>
+        <option value="Alex Pereira">Alex Pereira</option>
+        <option value="Shamil Abdurakhimov">Shamil Abdurakhimov</option>
+        <option value="Jailton Almeida">Jailton Almeida</option>
+        <option value="Derrick Lewis">Derrick Lewis</option>
+        <option value="Marcos Rogerio De Lima">Marcos Rogerio De Lima</option>
+        <option value="Waldo Cortes Acosta">Waldo Cortes Acosta</option>
+        <option value="Sean O'Malley">Sean O'Malley</option>
+        <option value="Aljamanin Sterling">Aljamanin Sterling</option>
+        <option value="Henry Cejudo">Henry Cejudo</option>
+        <option value="Tj Dillashaw">Tj Dillashaw</option>
+        <option value="Demetrious Johnson">Demetrious Johnson</option>
+        <option value="Wilson Reis">Wilson Reis</option>
+        <option value="Alexandre Pantoja">Alexandre Pantoja</option>
+        <option value="Brandon Moreno">Brandon Moreno</option>
+        <option value="Leon Edwards">Leon Edwards</option>
+        <option value="Nate Diaz">Nate Diaz</option>
+        <option value="Tony Ferguson">Tony Ferguson</option>
+        <option value="Conor McGregor">Conor McGregor</option>
+        <option value="Dustin Poirier">Dustin Poirier</option>
+        <option value="Justin Gaetjhe">Justin Gaetjhe</option>
+        <option value="Rafael Fiziev">Rafael Fiziev</option>
+        <option value="Michael Chandler">Michael Chandler</option>
+        <option value="Dan Hooker">Dan Hooker</option>
+        <option value="Jalin Turner">Jalin Turner</option>
+<option value="Claudio Puelles">Claudio Puelles</option>
+<option value="Clay Guida">Clay Guida</option>
+<option value="Joaquim Silva">Joaquim Silva</option>
+<option value="Arman Tsarukyan">Arman Tsarukyan</option>
+<option value="Beneil Dariush">Beneil Dariush</option>
+<option value="Mateusz Gamrot">Mateusz Gamrot</option>
+<option value="Diego Ferreira">Diego Ferreira</option>
+<option value="Michael Johnson">Michael Johnson</option>
+<option value="Josh Emmet">Josh Emmet</option>
+<option value="Ilia Topuria">Ilia Topuria</option>
+<option value="Bryce Mitchell">Bryce Mitchell</option>
+<option value="Dan Ige">Dan Ige</option>
+<option value="Yair Rodriguez">Yair Rodriguez</option>
+<option value="Brian Ortega">Brian Ortega</option>
+<option value="Chan Sung Jung">Chan Sung Jung</option>
+<option value="Frankie Edgar">Frankie Edgar</option>
+<option value="Marlon Vera">Marlon Vera</option>
+<option value="Cory Sandhagen">Cory Sandhagen</option>
+<option value="Petr Yan">Petr Yan</option>
+<option value="Jan Blachowicz">Jan Blachowicz</option>
+<option value="Cirly Gane">Cirly Gane</option>
+<option value="Serghei Spivac">Serghei Spivac</option>
+<option value="Alexander Gustafsson">Alexander Gustafsson</option>
+<option value="Daniel Cormier">Daniel Cormier</option>
+<option value="Anthony Johnson">Anthony Johnson</option>
+<option value="Glover Teixeira">Glover Teixeira</option>
+<option value="Calvin Kattar">Calvin Kattar</option>
+<option value="Giga Chikadze">Giga Chikadze</option>
+<option value="Alex Caceres">Alex Caceres</option>
+<option value="Daniel Pineda">Daniel Pineda</option>
+<option value="Edson Barboza">Edson Barboza</option>
+<option value="Tucker Lutz">Tucker Lutz</option>
+<option value="Pat Sabatini">Pat Sabatini</option>
+<option value="Diego Lopes">Diego Lopes</option>
+<option value="Thiago Santos">Thiago Santos</option>
+<option value="Jamahal Hill">Jamahal Hill</option>
+<option value="Paul Craig">Paul Craig</option>
+<option value="Brendan Allen">Brendan Allen</option>
+<option value="Bruno Silva">Bruno Silva</option>
+<option value="Shara Magomedov">Shara Magomedov</option>
+<option value="Ovince Saint Preux">Ovince Saint Preux</option>
+<option value="Philipe Lins">Philipe Lins</option>
+<option value="Max Grishin">Max Grishin</option>
+<option value="William Knight">William Knight</option>
+<option value="Marchin Prachino">Marchin Prachino</option>
+<option value="Vitor Petrino">Vitor Petrino</option>
+<option value="Anton Turkalj">Anton Turkalj</option>
+<option value="Tyson Pedro">Tyson Pedro</option>
+<option value="Modestas Bukauskas">Modestas Bukauskas</option>
+<option value="Zac Pauga">Zac Pauga</option>
+<option value="Mohammed Usman">Mohammed Usman</option>
+<option value="Zhang Weili">Zhang Weili</option>
+<option value="Amanda Lemos">Amanda Lemos</option>
+<option value="Marina Rodriguez">Marina Rodriguez</option>
+<option value="Michelle Waterson-Gomez">Michelle Waterson-Gomez</option>
+<option value="Luana Pinheiro">Luana Pinheiro</option>
+<option value="Sam Hughes">Sam Hughes</option>
+<option value="Piera Rodriguez">Piera Rodriguez</option>
+<option value="Kay Hansen">Kay Hansen</option>
+<option value="Alexa Grasso">Alexa Grasso</option>
+<option value="Viviane Araujo">Viviane Araujo</option>
+<option value="Jennifer Maia">Jennifer Maia</option>
+<option value="Casey O'Neill">Casey O'Neill</option>
+<option value="Roxanne Modafferi">Roxanne Modafferi</option>
+<option value="Taila Santos">Taila Santos</option>
+<option value="Erin Blanchfield">Erin Blanchfield</option>
+<option value="Jessica Andrade">Jessica Andrade</option>
+<option value="Mackenzie Dern">Mackenzie Dern</option>
+<option value="Angela Hill">Angela Hill</option>
+<option value="Denise Gomes">Denise Gomes</option>
+<option value="Anthony Smith">Anthony Smith</option>
+<option value="Ryan Spann">Ryan Spann</option>
+<option value="Nikita Krylov">Nikita Krylov</option>
+<option value="Shavkat Rakhmonov">Shavkat Rakhmonov</option>
+<option value="Li Jingliang">Li Jingliang</option>
+<option value="Gilbert Burns">Gilbert Burns</option>
+<option value="Kevin Holland">Kevin Holland</option>
+
+        <!-- Buraya dövüşçü listesini ekleyebilirsiniz -->
+    </select>
+    <br><br>
+    <button onclick="karsilastir()">Compare</button>
+    <div id="sonuc"></div>
+</div>
+
+    <script src="karar.js"></script>
+
+<div id = "myDiv1">
+<h1 style = "color:darkgreen;"> MMA-AI </h1>
+<p> MMA-AI predicts 94% of MMA matches correctly. </p>
+
+<p> Note: MMA-AI accuracy level was tested with 50 fighters and emerged as a result of optimizations. </p>
+
+
+
+
+
+<footer>
+<p> Sub Menu </p>
+</footer>
+
+</body>
+
+</html>

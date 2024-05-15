@@ -1,0 +1,50 @@
+header{
+background-color: darkgreen;
+text-align: center;
+color: white;
+}
+
+body {
+    background-color: #333; /* Koyu gri renk */
+    color: #fff; /* Beyaz metin rengi */
+}
+
+
+nav {
+    background-color: black;
+    height: 30px;
+    width: 100%;
+    margin: 10px auto; /* Merkezden hizalamak için */
+}
+
+
+
+.background-image {
+    background-image: url("https://images.wallpapersden.com/image/download/street-fighter-gaming-ai-art_bmZtZ22UmZqaraWkpJRoam1prWdlaW0.jpg");
+    background-repeat: no-repeat; /* Arka plan resminin tekrar etmesini engeller */
+    background-position: center; /* Arka plan resminin konumunu ayarlar */
+    background-size:  cover; /* Arka plan resminin ekranı kaplamasını sağlar */
+    height:%100; /* Örnek olarak, fotoğraf alanı yüksekliği 500 piksel olarak belirlendi */
+    margin-top : -20.5px; 	
+    margin-bottom: 1%; /* Fotoğraf alanı ile ana içerik arasına boşluk ekler */
+    background-attachment: fixed;
+    margin: 0; 
+    padding: 0;
+    	
+}
+
+
+
+#myDiv2{
+color: black;
+text-align: left;
+height:%100;
+}
+
+
+
+footer{
+background-color: darkgreen;
+color: white;
+text-align: center;
+}
